@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Add Song to Playlist</title>
+  </head>
+  <body>
+    <h1>Add a Song to Playlist: </h1>
+    <form method="POST">
+      <div>
+        <br>
+      </div>
+      <button type="submit">Add Song</button>
+    </form>
+    <a href="{{ url_for('show_playlist', playlist_id=playlist.id) }}">Back to Playlist</a>
+  </body>
+</html>
